@@ -2,7 +2,7 @@ package day1226;
 
 //1. 표준 출력 스트림 사용
 
-class UseConsoleOutput{
+class UseConsoleOutput {
     public static void main(String[] args) {
 		/*
 		System.out.print("안녕");
