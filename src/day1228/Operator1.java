@@ -14,6 +14,11 @@ class Operator1 {
         System.out.println("~" + i + " = " + ~i); // ~10 => -11
         System.out.println("~" + j + " = " + ~j); // ~-10 => 9
 
+        // ~를 사용하여 부호만 변경하고 싶다. -10으로 만들어보세요
+        System.out.println(~i); // -11
+        System.out.println(~i + 1);
+
+
         System.out.println("=======================================================");
 
         i = 12;

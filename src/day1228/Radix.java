@@ -44,5 +44,9 @@ class Radix {
         System.out.println("300 를 16진수로 : "
                 + Integer.toHexString(300));
 
+        int tel = 01012341234; // 0으로 시작하는 수는 8진수
+        System.out.println("내 전화번호는 :" + tel);
+        // 8진수를 출력하면 10진수로 나온다. => 문자열로 저장
+
     } // main
 } // class
