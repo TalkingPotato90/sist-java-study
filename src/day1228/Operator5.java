@@ -3,7 +3,7 @@ package day1228;
 /*
 논리연산자
  일반논리 : 여러개의 관계연산자를 붙여서 연산할 때 사용
- && (AND) - 전항과 후하이 모두 true 일 때만 true 반환
+ && (AND) - 전항과 후항이 모두 true 일 때만 true 반환
  || (OR) - 전항과 후항이 모두 false 일 때만 false 반환
 */
 class Operator5 {
