@@ -9,12 +9,17 @@ public class Work0104 {
             System.out.println();
         }
 
+        System.out.print("======================================================");
+        System.out.println("======================================================");
+
         for (int i = 0; i < 6; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print(" ");
             }
             System.out.println(i);
         }
+
+        System.out.println("==============================================");
 
         int sum = 0;
         for (int i = 1; i < 100; i++) {
@@ -23,6 +28,6 @@ public class Work0104 {
             }
             sum += i;
         }
-        System.out.println(sum);
+        System.out.printf("1에서부터 100까지의 수 중에서 3의 배수의 합은 %d",sum);
     }
 }
